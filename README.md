@@ -1,5 +1,4 @@
 # cwl-lbb
-<<<<<<< HEAD
 
 > 创未来-老表币
 
@@ -29,6 +28,4 @@ npm test
 ```
 
 For a detailed explanation on how things work, check out the [guide](http://vuejs-templates.github.io/webpack/) and [docs for vue-loader](http://vuejs.github.io/vue-loader).
-=======
-创未来-老表币
->>>>>>> 1d5a33ac1fa114a9783d753ac182229696a1dc10
+
