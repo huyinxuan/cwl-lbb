@@ -1,0 +1,31 @@
+<svg width="240" height="36" xmlns="http://www.w3.org/2000/svg">
+ <!-- Created with Method Draw - http://github.com/duopixel/Method-Draw/ -->
+ <defs>
+  <filter id="svg_19_blur">
+   <feGaussianBlur stdDeviation="0" in="SourceGraphic"/>
+  </filter>
+ </defs>
+ <g>
+  <title>background</title>
+  <rect fill="transparent" id="canvas_background" height="38" width="242" y="-1" x="-1"/>
+  <g display="none" overflow="visible" y="0" x="0" height="100%" width="100%" id="canvasGrid">
+   <rect fill="url(#gridpattern)" stroke-width="0" y="3.028639" x="1" height="480" width="640"/>
+  </g>
+ </g>
+ <g>
+  <title>Layer 1</title>
+  <g id="svg_10">
+   <text xml:space="preserve" text-anchor="start" font-family="'Times New Roman', Times, serif" font-size="24" id="svg_7" y="211.028639" x="94.492188" stroke-width="0" stroke="#000" fill="#894F3F">B</text>
+   <text xml:space="preserve" text-anchor="start" font-family="Oswald, sans-serif" font-size="24" id="svg_9" y="212.356764" x="112" stroke-width="0" stroke="#000" fill="#B8D078">B</text>
+   <text xml:space="preserve" text-anchor="start" font-family="Helvetica, Arial, sans-serif" font-size="24" id="svg_4" y="211.356764" x="78" stroke-width="0" stroke="#000" fill="#B8D078">L</text>
+  </g>
+  <g filter="url(#svg_19_blur)" id="svg_19">
+   <text font-weight="bold" stroke="#000" transform="matrix(1.3615819215774536,0,0,1.3083081988028766,-12.050847480073571,-9.867362253036928) " xml:space="preserve" text-anchor="start" font-family="Helvetica, Arial, sans-serif" font-size="32" id="svg_12" y="33.197678" x="9.636238" stroke-width="0" fill="#B8D078">L</text>
+   <text font-weight="bold" stroke="#000" transform="rotate(-20.325881958007812 39.07214736938477,17.339368820190433) matrix(1.3120139837265015,0,0,1.4115304946899412,-29.54138634410497,6.366520172590049) " xml:space="preserve" text-anchor="start" font-family="Helvetica, Arial, sans-serif" font-size="32" id="svg_13" y="18.784309" x="40.744406" stroke-width="0" fill="#FFB27C">B</text>
+   <text font-weight="bold" stroke="#000" transform="rotate(25.607839584350586 70.24860382080078,18.87603187561035) matrix(1.0819212198257446,0,0,1.4147355883739294,-5.570561071931479,-12.457089882751045) " xml:space="preserve" text-anchor="start" font-family="Helvetica, Arial, sans-serif" font-size="32" id="svg_16" y="33.261884" x="58.530103" fill-opacity="null" stroke-opacity="null" stroke-width="0" fill="#B8D078">B</text>
+   <text font-weight="bold" stroke="#000" transform="matrix(1.2093783617019653,0,0,1.3018886126918474,-21.82224142551422,11.749577012335365) " xml:space="preserve" text-anchor="start" font-family="Helvetica, Arial, sans-serif" font-size="32" id="svg_17" y="16.323744" x="96.289449" stroke-opacity="null" stroke-width="0" fill="#894F3F">W</text>
+   <text stroke="#000" transform="matrix(0.9495764970779419,0,0,1,6.605478882789612,0) " font-weight="bold" xml:space="preserve" text-anchor="start" font-family="Helvetica, Arial, sans-serif" font-size="28" id="svg_18" y="27.466139" x="131" stroke-opacity="null" stroke-width="0" fill="#426373">ORLD</text>
+  </g>
+  <path id="svg_21" d="m221.940246,11.735566c4.122954,-12.994311 20.276821,0 0,16.706971c-20.276821,-16.706971 -4.122954,-29.701282 0,-16.706971z" stroke-opacity="null" stroke-width="0" stroke="#000" fill="#EDB6DC"/>
+ </g>
+</svg>
