@@ -1,31 +1,34 @@
 <template>
-    <main>
-    <section class="finance-tabs"><button class="tab-exchange"><span>币币账户</span></button> <button
-            class="tab-otc"><span>法币账户</span></button> <button class="tab-margin active"><span>杠杆账户</span></button>
-    </section>
-    <section class="finance-card margin">
-        <dl>
-            <dt>
-                <h2>杠杆账户</h2><em>净资产折合(BTC)</em>
-            </dt><em></em>
-            <dd>0.00000000 <em>≈¥0.00</em></dd>
-            <dd class="otc-ht" style="display: none;"><i class="mobile_icon_shield"></i>保证金 0 HT</dd>
-        </dl><button><i class="mobile_icon_public"></i></button>
-    </section>
-    <section class="search-box"><i class="mobile_icon_search"></i> <input maxlength="10" placeholder="搜索币种"> <i
-            class="mobile_icon_clear" style="display: none;"></i> <label for="hide0001"><i
-                class="mobile_icon_checkbox"></i> <input id="hide0001" name="hide0001" type="checkbox"> 隐藏小额币种</label>
-    </section>
-    <section class="finance-list">
-        <dl class="margin">
-            <dt class="upper">btc/usdt</dt>
-            <dd><em>币种</em> <span>btc</span> <span>usdt</span></dd>
-            <dd><em>可用</em> <span>0.00000000</span> <span>0.00000000</span></dd>
-            <dd><em>已借</em> <span>0.00000000</span> <span>0.00000000</span></dd>
-            <dd><em>折合 ¥0.00</em></dd>
-        </dl>
-    </section>
-</main>
+    <div>
+        <header><img alt="Huobi Global" src="@/assets/home-logo2.svg"></header>
+        <main>
+            <section class="finance-tabs"><button class="tab-exchange"><span>币币账户</span></button> <button
+                    class="tab-otc"><span>法币账户</span></button> <button class="tab-margin active"><span>杠杆账户</span></button>
+            </section>
+            <section class="finance-card margin">
+                <dl>
+                    <dt>
+                        <h2>杠杆账户</h2><em>净资产折合(BTC)</em>
+                    </dt><em></em>
+                    <dd>0.00000000 <em>≈¥0.00</em></dd>
+                    <dd class="otc-ht" style="display: none;"><i class="mobile_icon_shield"></i>保证金 0 HT</dd>
+                </dl><button><i class="mobile_icon_public"></i></button>
+            </section>
+            <section class="search-box"><i class="mobile_icon_search"></i> <input maxlength="10" placeholder="搜索币种"> <i
+                    class="mobile_icon_clear" style="display: none;"></i> <label for="hide0001"><i
+                        class="mobile_icon_checkbox"></i> <input id="hide0001" name="hide0001" type="checkbox"> 隐藏小额币种</label>
+            </section>
+            <section class="finance-list">
+                <dl class="margin" v-for="i in 10" :key="i">
+                    <dt class="upper">btc/usdt</dt>
+                    <dd><em>币种</em> <span>btc</span> <span>usdt</span></dd>
+                    <dd><em>可用</em> <span>0.00000000</span> <span>0.00000000</span></dd>
+                    <dd><em>已借</em> <span>0.00000000</span> <span>0.00000000</span></dd>
+                    <dd><em>折合 ¥0.00</em></dd>
+                </dl>
+            </section>
+        </main>
+    </div>
 </template>
 
 <script>
@@ -338,6 +341,21 @@ a:hover {
 .fr {
     float: right
 }
+header{
+    position: fixed;
+    left: 0;
+    top: 0;
+    width: 100%;
+    z-index: 1;
+    height: 0.88rem;
+    background-color: #1d2243;
+    line-height: 0.88rem;
+    display: flex;
+    align-items: center;
+    -ms-flex-pack: justify;
+    justify-content: space-between;
+}
+
 main {
     margin-top: 1.08rem;
     text-align: left;
@@ -529,7 +547,8 @@ main section.search-box label {
 }
 
 main section.finance-list {
-    margin-left: 0.3rem
+    margin-left: 0.3rem;
+    margin-bottom: 0.88rem;
 }
 
 main section.finance-list dl {

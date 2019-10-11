@@ -11,11 +11,11 @@
       </swiper>
     </section>
     <section class="quick-register">
-      <input maxlength="64" placeholder="请输入您的邮箱或手机号" />
-      <button>注册</button>
+      <input maxlength="64" placeholder="请输入您的手机号" />
+      <button @click="goRegester">注册</button>
       <span>
         已有帐号？
-        <a href="/zh-cn/user/login/">登录</a>
+        <a  @click="goLogin" href="javascript:;" style="color:#089bff">登录</a>
       </span>
     </section>
     <section class="markets">
@@ -136,7 +136,14 @@ export default {
   },
   mounted() {},
   watch: {},
-  methods: {},
+  methods: {
+    goRegester(){
+      this.$router.push('/register')
+    },
+    goLogin(){
+      this.$router.push('/login')
+    }
+  },
   components: {
     swiper,
     swiperSlide

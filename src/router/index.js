@@ -7,6 +7,8 @@ import Market from '@/components/contComp/market/index'
 import Trade from '@/components/contComp/trade/index'
 import Margin from '@/components/contComp/margin/index'
 import Finance from '@/components/contComp/finance/index'
+import Login from '@/components/outComp/login'
+import Register from '@/components/outComp/register'
 Vue.use(Router)
 
 export default new Router({
@@ -42,6 +44,15 @@ export default new Router({
           component: Finance,
         }
       ]
+    },{
+      path: '/login',
+      name: 'login',
+      component: Login
+    },
+    {
+      path: '/register',
+      name: 'register',
+      component: Register
     }
   ]
 })
